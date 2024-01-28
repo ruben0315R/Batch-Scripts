@@ -14,6 +14,11 @@ We have made a batch scripts to remove apllications from the system by using SHA
 
 # Files operation
 
-* full_c_directory - Scans whole c: volume drive.
-* Desired_path - Scans the file path given by the user.
-* Desired_path & permissibility - Scans the file path given by the user and ask for Y or N before deleting the file.
+* full_volume - Scans the entire volume drive, processing one volume at a time.
+* Desired_path - Scans the file path provided by the user.
+* Desired_path & permissibility - Scans the file path specified by the user and asks for confirmation (Y or N) before deleting the file.
+
+# Changes required
+
+* Change the Hash data and CSV file path on your needs.
+* In full_volume change the target_directory variables for your specifications.
